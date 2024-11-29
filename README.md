@@ -1,29 +1,19 @@
 # CartServiceProject
 
-Bir e-ticaret sistemi için sepet servisi yazmanız beklenmektedir. Bu servis ile
-müşteriler sepetlerine ürün ekleyebilir, çıkarabilir ve sepetini
-görüntüleyebilmelidir. Bu testin amacı yazılım geliştirme becerilerinizi test
-etmektir, lütfen domain-driven design ve test-driven development
-yeteneklerinizi kullanınız.
+Bir E-ticaret sistemi iÃ§in sepet servis projesidir. 
+Bu servis ile;
+* MÃ¼ÅŸteriler sepetlerine Ã¼rÃ¼n ekleyebilir, Ã§Ä±karabilir ve sepetini
+gÃ¶rÃ¼ntÃ¼leyebilmektedir.
+* MÃ¼ÅŸteri olarak, farklÄ± maÄŸazalardan sepete ekleme ve Ã§Ä±karma
+iÅŸlemlerini yapabilmektedir.
+* MÃ¼ÅŸteri olarak, sepetimdeki Ã¼rÃ¼nleri ve sepetimin toplam tutarÄ±nÄ±
+gÃ¶rÃ¼ntÃ¼leyebilmektedir.
 
-## Gereksinimler:
-• Kullanıcı senaryoları için domain logic eklemeniz.
-• Eklediğiniz domain logic için unit testleri yazmanız.
-• Hiçbir UI, WebApi veya veri tabanı eklememeniz.
+Bu proje <b>Domain-Driven Design (DDD)</b> ve <b>Test-Driven Development (TDD)</b>
+prensipleri kullanÄ±lmÄ±ÅŸtÄ±r.
 
-## Kullanıcı Senaryoları:
-• Müşteri olarak, farklı mağazalardan sepete ekleme ve çıkarma
-işlemlerini yapabilmeliyiz.
-• Müşteri olarak, sepetimdeki ürünleri ve sepetimin toplam tutarını
-görüntüleyebilmeliyiz.
-
-## Beklenenler: 
-Aşağıdaki özellikleri kullanarak kod yazmanız beklenmektedir.
-• Clean and maintainable code: Kodunuzun temiz okunabilir ve iyi
-organize edilmiş olması.
-• Test-driven Development: Kodun doğruluğunu test etmek amaçlı unit
-test yazılması.
-• Domain-driven design: Domain modellemelerinin yapılması.
-• SOLID Principles:SOLID prensiplerine uyulması.
-• KISS Princples: Kodunuzun sade olması.
-• Design PaSerns: Gerek&ğinde tasarım desenlerinin uygulanması.
+## Kurulum
+```
+git clone https://github.com/MeralTd/CartServiceProject.git
+cd CartServiceProject
+```
